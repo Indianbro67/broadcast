@@ -18,7 +18,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 class Config(object):
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5581345303:AAG-3Mz-WBDz6d9cCsF6ZxGblQQGfphuIrM")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6289264953:AAGXNmL3GruFdPDTitjPpGgAKIwG4MxA9Zs")
 
     # Get from my.telegram.org
     APP_ID = int(os.environ.get("APP_ID", "26670684"))
@@ -33,7 +33,7 @@ class Config(object):
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "@op_bro_official_group")
 
     # List of admin user ids for special functions(Storing as an array)
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "6046923227").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5841005593").split())
 
 
 def LOGGER(name: str) -> logging.Logger:
