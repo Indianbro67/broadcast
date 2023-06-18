@@ -27,7 +27,7 @@ async def start_bot(bot, m: Message):
     id = m.from_user.id
     user_name = '@' + m.from_user.username if m.from_user.username else None
     await add_user(id, user_name)
-    await m.reply_photo(photo=f"https://telegra.ph/file/4d4f337cfea91640b5f07.jpg",caption=f"""Hello Sir"""
+    await m.reply_photo(photo=f"https://telegra.ph/file/4d4f337cfea91640b5f07.jpg"
                        )
 
 
