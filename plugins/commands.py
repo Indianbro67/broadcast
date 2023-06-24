@@ -21,13 +21,14 @@ else:
     from config import Config
 
 
-# ------------------------------- Start Message --------------------------------- #
-@Client.on_message(filters.private & filters.command('start'))
-async def start_bot(bot, m: Message):
-    id = m.from_user.id
-    user_name = '@' + m.from_user.username if m.from_user.username else None
-    await add_user(id, user_name)
-    await m.reply_photo(photo=f"https://justpaste.it/img/small/e55b381a24f7b82885cc176c7293bff8.jpg",caption=f"""𝗦𝗲𝗻𝗱 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗢r 𝗚𝗿𝗼𝘂𝗽 𝗟𝗶𝗻𝗸 . \n𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭𝐞𝐝 𝐏𝐡𝐨𝐭𝐨 𝐚𝐧𝐝 𝐕𝐢𝐝𝐞𝐨""")
+# ------------------------------- Start Message --------------------------------- # 
+ @Client.on_message(filters.private & filters.command('start')) 
+ async def start_bot(bot, m: Message): 
+     id = m.from_user.id 
+     user_name = '@' + m.from_user.username if m.from_user.username else None 
+     await add_user(id, user_name) 
+     await m.reply_photo(photo=f"https://telegra.ph/file/4d4f337cfea91640b5f07.jpg",caption=f"""𝗦𝗲𝗻𝗱 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗢r 𝗚𝗿𝗼𝘂𝗽 𝗟𝗶𝗻𝗸 . \n𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭𝐞𝐝 𝐏𝐡𝐨𝐭𝐨 𝐚𝐧𝐝 𝐕𝐢𝐝𝐞𝐨"""
+                        ) 
 
 
 # ------------------------------- View Subscribers --------------------------------- #
