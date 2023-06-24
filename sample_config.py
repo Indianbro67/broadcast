@@ -30,7 +30,7 @@ class Config(object):
     DB_URI = os.environ.get("DATABASE_URL", "postgresql://devi218:apple@9450@localhost:5432/devi218")
 
     # Group / channel username of the support chat
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "@op_bro_official_group")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "@adult_updates")
 
     # List of admin user ids for special functions(Storing as an array)
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5841005593").split())
