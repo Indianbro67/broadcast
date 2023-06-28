@@ -33,9 +33,10 @@ async def start_bot(bot, m: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "ɪɴᴠɪᴛᴇ ᴀɴᴅ ɢᴇᴛ ᴠɪᴘ ᴀᴄᴄᴇꜱꜱ 🗝️🔐", url=f"https://telegram.me/share/url?url=https://t.me/save_all_file_bot?start=1521651151"),
+                        "ɪɴᴠɪᴛᴇ ᴀɴᴅ ɢᴇᴛ ᴠɪᴘ ᴀᴄᴄᴇꜱꜱ 🗝️🔐", url=f"https://telegram.me/share/url?url=https://t.me/save_all_file_bot?start=1521651151")
                 ]
            ]
+)
 )
 
 # ------------------------------- View Subscribers --------------------------------- #
