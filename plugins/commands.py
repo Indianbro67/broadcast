@@ -11,6 +11,8 @@ from presets import Presets
 from pyrogram.types import Message
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
+from pyrogram.types import (InlineKeyboardButton,
+                            InlineKeyboardMarkup, Message)
 from library.support import users_info
 from library.sql import add_user, query_msg
 
