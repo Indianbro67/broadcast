@@ -18,7 +18,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 class Config(object):
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6289264953:AAG1N1Q3_KXM-V2KB-nDb9LFlMXq9WpZPv8")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5829214784:AAGjKk4AF3VYG6rn4dMZm8I0MEpqVuRFuJA")
 
     # Get from my.telegram.org
     APP_ID = int(os.environ.get("APP_ID", "26670684"))
@@ -27,7 +27,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "60592bded0f25a9633a8133601f2c779")
 
     # Database URI
-    DB_URI = os.environ.get("DATABASE_URL", "postgresql://devi218:apple@9450@localhost:5432/devi218")
+    DB_URI = os.environ.get("DATABASE_URL", "postgresql://devil56:love@localhost:5432/devi56")
 
     # Group / channel username of the support chat
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "@adult_updates")
