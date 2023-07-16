@@ -27,7 +27,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "60592bded0f25a9633a8133601f2c779")
 
     # Database URI
-    DB_URI = os.environ.get("DATABASE_URL", "postgresql://devil56:love@localhost:5432/devi56")
+    DB_URI = os.environ.get("DATABASE_URL", "postgresql://black:biology@localhost:5432/black")
 
     # Group / channel username of the support chat
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "@adult_updates")
