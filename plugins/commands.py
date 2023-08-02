@@ -29,6 +29,7 @@ async def start_bot(bot, m: Message):
      id = m.from_user.id 
      user_name = '@' + m.from_user.username if m.from_user.username else None 
      await add_user(id, user_name) 
+     await message.reply_sticker("CAACAgUAAxkBAAEJ3rdkx-mv7czAKR0AAR_OcrzAvG838cAAAucLAAIUT0FWDj56XbQhG4UvBA")
      await m.reply_audio(audio=f"https://dl.sndup.net/hp75/How%20To%20Download%20Restricted%20Photo%20and.mp3",caption=f"""𝗦𝗲𝗻𝗱 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗢r 𝗚𝗿𝗼𝘂𝗽 𝗟𝗶𝗻𝗸 . \n𝐓𝐨 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐑𝐞𝐬𝐭𝐫𝐢𝐜𝐭𝐞𝐝 𝐏𝐡𝐨𝐭𝐨 𝐚𝐧𝐝 𝐕𝐢𝐝𝐞𝐨\n\n@adult_updates""",reply_markup=InlineKeyboardMarkup(
             [
                 [
